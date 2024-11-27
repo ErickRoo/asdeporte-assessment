@@ -1,25 +1,11 @@
 import { AddTodo, Sidebar, TopMenu } from "@/components/index";
 import { Modal } from "@/components/index";
-import {
-  IoAddCircleSharp,
-  IoCheckboxOutline,
-  IoListOutline,
-} from "react-icons/io5";
+import { IoAddCircleSharp } from "react-icons/io5";
 
 const sideItems = [
   {
     title: "Add TODO",
     Icon: <IoAddCircleSharp />,
-  },
-  {
-    path: "/dashboard/rest-todos",
-    title: "Rest TODOs",
-    Icon: <IoCheckboxOutline />,
-  },
-  {
-    path: "/dashboard/server-actions",
-    title: "Server Actions",
-    Icon: <IoListOutline />,
   },
 ];
 
